@@ -53,11 +53,11 @@ export default function Index() {
           <Text style={styles.buttonText}>Start Quiz</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.buttonOutline} onPress={toggleMock}>
+        {/* <TouchableOpacity style={styles.buttonOutline} onPress={toggleMock}>
           <Text style={styles.buttonOutlineText}>
             {isMock ? "Disable Mock Mode" : "Enable Mock Mode"}
           </Text>
-        </TouchableOpacity>
+        </TouchableOpacity> */}
       </View>
     </View>
   );
