@@ -89,7 +89,9 @@ export default function QuizIndex() {
         setVisible(false);
 
         loadQuestion();
-        if (!endQuiz) setCurrentIndex((prev) => prev + 1);
+        if (!endQuiz) {
+            setCurrentIndex((prev) => prev + 1)
+        };
     };
 
     const restartQuiz = () => {

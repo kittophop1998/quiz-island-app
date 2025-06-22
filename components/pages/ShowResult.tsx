@@ -17,6 +17,7 @@ export default function ShowResultPage({
         if(score >= 5) return "Pass";
         return "Fail";
     }
+    numberOfQuestions = numberOfQuestions > 0 ? numberOfQuestions -1 : numberOfQuestions;
 
     return (
         <View style={styles.container}>
