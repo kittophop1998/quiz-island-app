@@ -1,0 +1,1 @@
+export const API_URL = "https://webapi.icydune-a1052ab7.southeastasia.azurecontainerapps.io/api/v1";
